@@ -1,0 +1,12 @@
+fun test() {
+    if (bar()) {
+        return;
+    } else {
+        return;
+    }
+    bar();
+}
+
+fun bar() {
+
+}

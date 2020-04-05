@@ -59,7 +59,7 @@ private fun generateTests(testDataRoot: String, abstractTestClassName: String) {
                     println("@Test")
                     println("fun test${fileName.removeSuffix(".dummy").capitalize()}() {")
                     withIndent {
-                        println("doTest(\"${commonPrefix + fileName}\")")
+                        println("doTest(\"${commonPrefix + fileName}\")".replace("\\", "\\\\"))
                     }
                     println("}")
 

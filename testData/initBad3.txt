@@ -1,0 +1,3 @@
+ERROR: line 9: Variable 'x' is accessed before initialization
+ERROR: line 4: Unreachable code
+ERROR: line 4: Unreachable code

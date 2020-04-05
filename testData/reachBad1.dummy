@@ -1,0 +1,10 @@
+fun test() {
+    if (true) {
+        bar(1);
+    } else {
+        bar(2);
+    }
+    bar(3);
+}
+
+fun bar(x) {}

@@ -1,0 +1,1 @@
+ERROR: line 8: Variable 'x' is accessed before initialization
