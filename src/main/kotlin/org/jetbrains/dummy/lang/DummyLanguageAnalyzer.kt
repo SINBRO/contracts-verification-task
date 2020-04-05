@@ -6,7 +6,8 @@ class DummyLanguageAnalyzer(outputStream: OutputStream) {
     companion object {
         private val CHECKERS: List<(DiagnosticReporter) -> AbstractChecker> = listOf(
                 ::VariableInitializationChecker,
-                ::UnreachableCodeChecker
+                ::UnreachableCodeChecker,
+                ::UnusedVariableChecker
         )
     }
 

@@ -92,4 +92,24 @@ class DummyLanguageTestGenerated : AbstractDummyLanguageTest() {
     fun testReachGood3() {
         doTest("testData\\reachGood3.dummy")
     }
+    
+    @Test
+    fun testUnusedBad1() {
+        doTest("testData\\unusedBad1.dummy")
+    }
+    
+    @Test
+    fun testUnusedBad2() {
+        doTest("testData\\unusedBad2.dummy")
+    }
+    
+    @Test
+    fun testUnusedGood1() {
+        doTest("testData\\unusedGood1.dummy")
+    }
+    
+    @Test
+    fun testUnusedGood2() {
+        doTest("testData\\unusedGood2.dummy")
+    }
 }

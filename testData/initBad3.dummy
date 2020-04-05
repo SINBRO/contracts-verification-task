@@ -10,5 +10,5 @@ fun test() {
 }
 
 fun bar(x) {
-
+    x;
 }

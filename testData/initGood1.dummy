@@ -9,4 +9,6 @@ fun test() {
     }
 }
 
-fun bar(x) {}
+fun bar(x) {
+    x;
+}

@@ -124,7 +124,7 @@ class DummySourceToTreeTransformer {
             msg: String?,
             e: RecognitionException?
         ) {
-            throw ParseCancellationException("line $line:$charPositionInLine $msg");
+            throw ParseCancellationException("line $line:$charPositionInLine $msg")
         }
     }
 }

@@ -6,4 +6,6 @@ fun foo(x) {
     var y = x;
 }
 
-fun bar(x) {}
+fun bar(x) {
+    x;
+}

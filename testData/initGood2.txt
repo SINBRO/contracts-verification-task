@@ -1,0 +1,2 @@
+ERROR: line 2: Variable 'x' is never used
+ERROR: line 6: Variable 'y' is never used

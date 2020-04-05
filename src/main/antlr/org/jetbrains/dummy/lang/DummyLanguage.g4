@@ -20,16 +20,16 @@ block
     : BEGIN stat* END
     ;
 
+return_statement
+    : RETURN expr? SEMICOLON
+    ;
+
 stat
     : var_def
     | assign
     | expr SEMICOLON
     | if_statement
     | return_statement
-    ;
-
-return_statement
-    : RETURN expr? SEMICOLON
     ;
 
 if_statement
@@ -93,6 +93,10 @@ FUN
     : 'fun'
     ;
 
+RETURN
+    : 'return'
+    ;
+
 ID
     : ('_'|[a-z])('_'|[a-z0-9])*
     ;
@@ -136,8 +140,4 @@ ASSIGN
 
 COMMA
     : ','
-    ;
-
-RETURN
-    : 'return'
     ;

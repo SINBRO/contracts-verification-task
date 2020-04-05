@@ -4,4 +4,6 @@ fun test() {
     x = 1;
 }
 
-fun bar(x) {}
+fun bar(x) {
+    x;
+}

@@ -56,9 +56,9 @@ class VariableInitializationChecker(private val reporter: DiagnosticReporter) : 
         }
 
         override fun visitBlock(block: Block, data: LinkedHashSet<String>): Set<String>? {
-            val initializedVariables = data.size
+            val preInitializedVariables = data.size
             super.visitBlock(block, data)
-            val result = HashSet<String>(data.reversed().take(data.size - initializedVariables).reversed())
+            val result = HashSet<String>(data.reversed().take(data.size - preInitializedVariables).reversed())
             data.removeAll(result)
             return result
         }

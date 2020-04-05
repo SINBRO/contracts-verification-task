@@ -1,0 +1,17 @@
+fun test() {
+    var x;
+    var y = 1;
+    var z = 2;
+
+    if (bar(y)) {
+        if (bar(z)) {
+
+        } else {
+            y = z;
+        }
+    }
+}
+
+fun bar(x) {
+
+}

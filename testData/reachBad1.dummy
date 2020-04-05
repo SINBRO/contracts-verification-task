@@ -7,4 +7,6 @@ fun test() {
     bar(3);
 }
 
-fun bar(x) {}
+fun bar(x) {
+    x;
+}

@@ -15,9 +15,9 @@ fun test() {
 }
 
 fun bar(y) {
-
+    y;
 }
 
 fun foo(y) {
-
+    y;
 }

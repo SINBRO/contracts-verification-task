@@ -1,0 +1,3 @@
+ERROR: line 2: Variable 'x' is never used
+ERROR: line 4: Variable 'z' is never used
+ERROR: line 7: Parameter 'x' is never used
